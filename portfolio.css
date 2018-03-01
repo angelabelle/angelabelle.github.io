@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background:  #145;  
+    color: #fff;
+    padding:  15px 15px 0 15px;
+}
+
+header h1 {
+    margin: 0px;
+    display: inline;
+}
+
+nav ul {
+    display: inline;
+    padding: 0 0 0 15px;
+    margin: 0px;
+}
+
+
+nav ul li{
+    background: #fff;
+    color: #fff;
+    list-style-type: none;
+    display: inline;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+nav ul li a {
+    color: #000;
+}
+
+.row {
+    
+}
+
+.row:after {
+    clear:both;
+}
+
+.col {
+    float: left;
+    background:  #ff4000;
+    margin:  .5%;
+    width:  31%;
+    border-radius: 2px;
+    padding: 10px .5%;
+}
