@@ -1,11 +1,16 @@
-function setup() {
 
-	console.log(!boolean);
+
+function setup() {
+createCanvas(windowWidth,windowHeight);
 
 }
 
 function draw() {
-	let hello = 'hi';
+	background (random(0,255),10,30,50);
+	fill (random(200,255),255,255,50);
+	stroke (0);
+	triangle( mouseX,mouseY,random((windowWidth-mouseX),(windowHeight-mouseY)),random(0,255),random(0,255),random(0,255),);
+
 }
 
 
