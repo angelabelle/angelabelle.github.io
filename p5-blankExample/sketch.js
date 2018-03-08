@@ -1,17 +1,24 @@
 
-// declare variables here
+let p = "pets";
+let n = "Nala";
+let boolean = false;
 
-
-// setup runs once
 function setup() {
-	createCanvas(500, 500);
-	background(150);
+
+	console.log(!boolean);
+
 }
 
-// draw loops and loops
 function draw() {
-
+	let hello = 'hi';
 }
 
 
 // write functions here
+
+
+//this will log the mouse coordinate
+//console.log(mouseX);
+
+//this will create random triangles, will use this for project
+//triangle( mouseX,mouseY,random((windowWidth-mouseX),(windowHeight-mouseY)),random(0,255),random(0,255),random(0,255),);
