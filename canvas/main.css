@@ -6,6 +6,7 @@ body {
   text-align: center;
 }
 
+
 canvas {
   margin: auto;
   top: 0;
@@ -13,10 +14,10 @@ canvas {
   position: absolute;
 }
 
+
   /* uncomment lines below if you want your canvas to cover the whole page
   you will also have to create canvas to the window dimensions
   in your p5 sketch, use: createCanvas(windowWidth, windowHeight); */
   /* top: 0;
   left: 0;
   position: absolute; */
-}
