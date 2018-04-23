@@ -1,45 +1,6 @@
-
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Quantico|VT323');
-body {
-  background: #000000;
-  color: #00FF00;
-  font-family: 'VT323', monospace;
-  text-align: center;
-  padding-top: 100px;
-  margin-top: 15%;
-}
-
 canvas {
     margin: auto;
     top: 0;
     left: 0;
     position: absolute;
-}
-
-h1 {
-  font-family: 'Press Start 2P', monospace;
-  font-size: 30px;
-}
-a {
-  color: #ffffff;
-  font-style: normal;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #0000ff;
-}
-
-p {
-  font-size: 32px;
-
-}
-/* font-family: 'Quantico', monospace;
-font-family: 'VT323', monospace;
-font-family: 'Press Start 2P', monospace;
-*/
-
-
-text {
-  font-family: 'Press Start 2P', monospace;
 }

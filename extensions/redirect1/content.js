@@ -14,6 +14,6 @@ var s = function(sketch) {
 setTimeout(
   function() {
 
-  window.location.href = "https://angelabelle.github.io/timeout.html/*";
+  window.location.href = "https://angelabelle.github.io";
 },
-15000);
+5000);

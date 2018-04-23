@@ -1,13 +1,13 @@
-var myFont;
-function preload() {
-  myFont = loadFont('fonts/Press_Start_2P/PressStart2P-Regular.ttf');
-}
+var speed = [1,40];
+var index = 0;
 
-
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-  clear();
-  zIndex="6";
+function setup () {
+  createCanvas(windowWidth,windowHeight);
+  background (0,0,0);
+  background (255,255,255);
+  textSize(70);
+  textAlign (CENTER);
+  text('SESSION TIME OUT', (windowWidth/2), (windowHeight/2))
 }
 
 function windowResized() {
@@ -16,15 +16,12 @@ function windowResized() {
 
 function draw () {
 
-  createCanvas( (windowWidth), (windowHeight/2.9));
-  fill(0,(128 + sin(frameCount*0.1) * 128),0);
-  textAlign(CENTER);
-  textSize(70);
-  textFont(myFont);
-  text('INSERT MORE TIME', (windowWidth/2), (windowHeight/3));
+  frameRate (speed[index]);
+  index = index + 1;
+  fill (0,0,0);
+  textSize(random(40,200));
 
-  // fill (0,0,0)
-  // textSize(72);
-  // text('INSERT MORE TIME', (windowWidth/4.5), (windowHeight/3));
-
+  text('SESSION TIME OUT', random(-100,windowWidth), random(-100,windowHeight));
 }
+
+setTimeout(function(){location.href="../moretime.html"} , 20000);
