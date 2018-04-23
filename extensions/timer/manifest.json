@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "timer",
+  "version": "1",
+  "content_scripts": [{
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": ["libraries/p5.js","libraries/p5.dom.js","content.js"]
+
+  }]
+}

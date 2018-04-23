@@ -1,42 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Quantico|VT323');
 body {
-  margin: 30px auto;
-  max-width: 60%;
-  font-family: "Tahoma", "Helvetica", sans-serif;
-  line-height: 1.5;
-  padding: 30px 20px;
+  background: #000000;
+  color: #00FF00;
+  font-family: 'VT323', monospace;
   text-align: center;
+  padding-top: 100px;
+  margin-top: 15%;
+}
+
+canvas {
+    margin: auto;
+    top: 0;
+    left: 0;
+    position: absolute;
 }
 
 h1 {
-  padding: 20px 0px 10px 0px;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 30px;
 }
-
-/* This changes color and removes default underline in links  */
-
 a {
-color: #69CBBB;
-text-decoration: none;
+  color: #ffffff;
+  font-style: normal;
+  text-decoration: none;
 }
 
-/* Centers images */
-
-img {
-  display: block;
-  margin: 0px auto;
-  width: 100%;
+a:hover {
+  color: #0000ff;
 }
 
-/* When you put a period in front of a CSS declaration, it indicates you are
-creating a new class. We can apply this to div elements to create different
-portfolio entries */
+p {
+  font-size: 32px;
 
-.portfolio-item {
-  margin-top: 60px;
-  padding: 40px;
-  background-color: #f7f7f7;
 }
+/* font-family: 'Quantico', monospace;
+font-family: 'VT323', monospace;
+font-family: 'Press Start 2P', monospace;
+*/
 
-.portfolio-description {
-  font-size: auto;
-  line-height: 1;
+
+text {
+  font-family: 'Press Start 2P', monospace;
 }

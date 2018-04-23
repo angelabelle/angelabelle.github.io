@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Money Blackout",
+  "version": "1",
+  "web_accessible_resources": [
+    "fallingmoney.png"
+  ],
+  "content_scripts": [{
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": ["libraries/p5.js","libraries/p5.dom.js","content.js"]
+
+  }]
+}

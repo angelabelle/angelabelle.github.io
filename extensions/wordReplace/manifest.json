@@ -1,0 +1,14 @@
+{
+"manifest_version": 2,
+    "name": "$$$",
+    "description": "Replacer",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["libraries/p5.js","libraries/p5.dom.js","content.js"],
+            "exclude_matches": [ "https://www.google.com/*","https://www.bing.com/*","https://www.dailydot.com/debug/what-is-sesta-fosta-bill/*"],
+            "run_at": "document_end"
+        }
+    ]
+}
