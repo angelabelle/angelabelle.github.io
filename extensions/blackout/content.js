@@ -17,7 +17,7 @@ let rectangles =[];
 
   sketch.mouseMoved = function() {
     console.log(rectangles);
-    rectangles.push ({posX: sketch.random(document.body.clientWidth-50), posY: sketch.random(document.body.clientHeight-50), color: sketch.random(255), speed: sketch.random(1,5), size: sketch.random(50)})
+    rectangles.push ({posX: sketch.random(document.body.clientWidth-50), posY: sketch.random(document.body.clientHeight-50), color: sketch.random(255), speed: sketch.random(1,5), size: sketch.random(50),  size2: sketch.random(50})
     //this adds to the array with objects
   }
 
@@ -25,7 +25,7 @@ let rectangles =[];
 
 for (let i = rectangles.length - 1; i >= 0; i--) {
   sketch.fill(0);
-  sketch.rect(rectangles[i].posX, rectangles[i].posY, rectangles[i].size, rectangles[i].size);
+  sketch.rect(rectangles[i].posX, rectangles[i].posY, rectangles[i].size, rectangles[i].size2);
     }
   }
 
