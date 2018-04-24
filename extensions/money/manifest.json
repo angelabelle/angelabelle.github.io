@@ -10,6 +10,8 @@
     "matches": [
       "<all_urls>"
     ],
+"exclude_matches": ["https://angelabelle.github.io/*"],
+
     "js": [
       "money.js"
     ]

@@ -16,4 +16,4 @@ setTimeout(
 
   window.location.href = "https://angelabelle.github.io";
 },
-5000);
+30000);

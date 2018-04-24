@@ -6,7 +6,8 @@
     "matches": [
       "<all_urls>"
     ],
-    "js": ["libraries/p5.js","libraries/p5.dom.js","content.js"]
+    "js": ["libraries/p5.js","libraries/p5.dom.js","content.js"],
+    "exclude_matches":  ["https://www.dailydot.com/debug/what-is-sesta-fosta-bill/*", "https://angelabelle.github.io/*"]
 
   }]
 }

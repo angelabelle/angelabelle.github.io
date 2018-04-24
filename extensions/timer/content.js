@@ -1,6 +1,6 @@
 console.log('sketch is working');
 var counter = 0;
-var timeleft= 10;
+var timeleft= 30;
 
 function convertSeconds(s) {
   var min = floor (s / 60);
