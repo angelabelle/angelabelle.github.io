@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 1680034541
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eaafc442ff4a06eb14e59962a0f74309
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b9e1a8ed7f61e0f6769549f6cedb0470
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Portal.prefab
+Dependencies: []
